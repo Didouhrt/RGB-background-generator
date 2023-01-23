@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>rgb background generator</title>
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <h2>RGB Background Generator</h2>
+  <div class="rgbslidersholder">
+    <div class="rgbslide">
+      <p>R</p>
+      <input type="range" value="255" max="255" id="red">
+      <p id="redtextval">255</p>
+    </div>
+    <div class="rgbslide">
+      <p>G</p>
+      <input type="range" value="255" max="255" id="green">
+      <p id="greentextval">255</p>
+    </div>
+    <div class="rgbslide">
+      <p>B</p>
+      <input type="range" value="255" max="255" id="blue">
+      <p id="bluetextval">255</p>
+    </div>
+  </div>
+  <div class="outpoot">
+    <i id="redo" class="uil uil-redo"></i>
+    <p id="res">Lorem ipsum dolor sit amet.</p>
+    <i id="copy" class="uil uil-copy"></i>
+  </div>
+</div>
+<p class="copyright">Made By <span>DidouDev</span> With Love</p>
+<script src="index.js"></script>
+</body>
+</html>
